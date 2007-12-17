@@ -13,7 +13,6 @@ Url:        http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/Sub/%{module}-%{version}.tar.gz
 BuildRequires:  perl(Data::OptList)
 BuildArch:      noarch
-BuildRoot: 	    %{_tmppath}/%{name}-%{version}
 
 %description 
 This module allows to (re)name a sub.
