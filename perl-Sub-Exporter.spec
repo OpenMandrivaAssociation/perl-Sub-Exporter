@@ -1,6 +1,6 @@
 %define module  Sub-Exporter
 %define	name	perl-%{module}
-%define version 0.978
+%define version 0.979
 %define release %mkrel 1
 
 Name: 		%{name}
