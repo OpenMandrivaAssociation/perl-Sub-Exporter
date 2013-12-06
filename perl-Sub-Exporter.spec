@@ -3,7 +3,7 @@
 Summary:	A sophisticated exporter for custom-built routines
 Name:		perl-%{module}
 Version:	0.982
-Release:	11
+Release:	12
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
