@@ -1,22 +1,23 @@
 %define module  Sub-Exporter
+%define upstream_version 0.986
 
-Summary:	A sophisticated exporter for custom-built routines
 Name:		perl-%{module}
-Version:	0.982
-Release:	13
-License:	GPLv2 or Artistic
+Version:	%perl_convert_version %{upstream_version}
+Release:	1
+Summary:	A sophisticated exporter for custom-built routines
+License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
-Source0:	http://www.cpan.org/modules/by-module/Sub/%{module}-%{version}.tar.gz
-BuildArch:	noarch
+Source:		http://www.cpan.org/modules/by-module/Sub/Sub-Exporter-%{upstream_version}.tar.gz
 BuildRequires:	perl(Data::OptList)
 BuildRequires:	perl-devel
+BuildArch:	noarch
 
 %description 
 This module allows to (re)name a sub.
 
 %prep
-%setup -qn %{module}-%{version}
+%setup -q -n %{module}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
@@ -31,5 +32,5 @@ make test
 %files
 %doc Changes README
 %{perl_vendorlib}/Sub
-%{_mandir}/man3/*
+%{_mandir}/*/*
 
