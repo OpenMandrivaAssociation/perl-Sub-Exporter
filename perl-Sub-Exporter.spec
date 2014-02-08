@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:	0.982
-Release:	9
+Release:	10
 Summary:	A sophisticated exporter for custom-built routines
 License:	GPL or Artistic
 Group:		Development/Perl
