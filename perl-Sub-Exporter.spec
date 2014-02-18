@@ -1,5 +1,5 @@
 %define module  Sub-Exporter
-%define upstream_version 0.986
+%define upstream_version 0.987
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
@@ -33,4 +33,5 @@ make test
 %doc Changes README
 %{perl_vendorlib}/Sub
 %{_mandir}/*/*
+
 
