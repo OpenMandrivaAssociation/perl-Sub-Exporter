@@ -9,6 +9,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Exporter-%{upstream_version}.tar.gz
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Data::OptList)
 BuildRequires:	perl-devel
 BuildArch:	noarch
