@@ -1,9 +1,9 @@
 %define module  Sub-Exporter
-%define upstream_version 0.987
+%define upstream_version 0.988
 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	9
+Release:	1
 Summary:	A sophisticated exporter for custom-built routines
 License:	GPL or Artistic
 Group:		Development/Perl
@@ -18,7 +18,7 @@ BuildArch:	noarch
 This module allows to (re)name a sub.
 
 %prep
-%setup -q -n %{module}-%{upstream_version}
+%autosetup -p1 -n %{module}-%{upstream_version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
