@@ -1,8 +1,8 @@
 %define module  Sub-Exporter
 
 Name:		perl-%{module}
-Version:	0.989
-Release:	4
+Version:	0.990
+Release:	1
 Summary:	A sophisticated exporter for custom-built routines
 License:	GPL or Artistic
 Group:		Development/Perl
