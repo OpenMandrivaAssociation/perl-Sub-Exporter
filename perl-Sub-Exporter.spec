@@ -6,7 +6,7 @@ Release:	1
 Summary:	A sophisticated exporter for custom-built routines
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Sub::Exporter
+Url:		https://metacpan.org/pod/Sub::Exporter
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Exporter-%{version}.tar.gz
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Data::OptList)
