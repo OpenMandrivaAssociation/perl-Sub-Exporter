@@ -8,6 +8,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Sub::Exporter
 Source0:	http://www.cpan.org/modules/by-module/Sub/Sub-Exporter-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Data::OptList)
 BuildRequires:	perl-devel
