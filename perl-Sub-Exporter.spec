@@ -12,6 +12,7 @@ BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Data::OptList)
 BuildRequires:	perl-devel
+BuildRequires:	perl(Params::SomeUtil)
 BuildArch:	noarch
 
 %description 
